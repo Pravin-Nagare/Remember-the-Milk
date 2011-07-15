@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Edit task {{ task.task }}
+{% endblock %}
+
+{% block content %}
+    <h1 id="">Edit task: {{ task.task }}</h1>
+    <form action="" method="post" accept-charset="utf-8">
+        {{ form.csrf }}
+        <p>{{ form.task.label }}: {{ form.task }}</p>
+        <p>{{ form.start.label }}: {{ form.start }}</p>
+	<p>{{ form.time.label }}: {{ form.time }}</p>
+        <p><input type="submit" value="Todo!"/></p>
+    </form>
+{% endblock %}

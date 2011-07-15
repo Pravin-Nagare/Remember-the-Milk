@@ -1,0 +1,17 @@
+Remember the Milk~Simple TODO 
+==============
+
+A simple TODO app using Flask and MongoAlchemy.
+
+
+Dependencies
+------------
+
+You can install all dependencies by running:
+
+============
+
+    $ [sudo] pip install -r requirements.txt
+
+============
+
